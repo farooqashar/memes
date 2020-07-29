@@ -2,6 +2,9 @@ var request = new XMLHttpRequest();
 
 var input = window.prompt("What meme topic do you want to see?");
 
+for (i = 0; i < 5; i++) {
+
+
 //var input1 = alert(input))
 request.open('GET', "https://api.giphy.com/v1/gifs/random?api_key=X1eRcC1LAcPrE0DP7luuizxZt5JW1Z3j&tag=" +input+  "&rating=g");
 
@@ -18,3 +21,4 @@ request.onload = function() {
 };
 
 request.send();
+}

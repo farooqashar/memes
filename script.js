@@ -1,7 +1,6 @@
 
 var input = window.prompt("What meme topic do you want to see?");
 
-for (i = 0; i < 5; i++) {
 var request = new XMLHttpRequest();
 
 
@@ -21,4 +20,4 @@ request.onload = function() {
 };
 
 request.send();
-}
+

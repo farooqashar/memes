@@ -1,8 +1,8 @@
-var request = new XMLHttpRequest();
 
 var input = window.prompt("What meme topic do you want to see?");
 
 for (i = 0; i < 5; i++) {
+var request = new XMLHttpRequest();
 
 
 //var input1 = alert(input))
